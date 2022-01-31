@@ -1,0 +1,27 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "factory-method": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/factory-method/index.ts",
+    "abstract-factory": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/abstract-factory/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhollerveger/ts-design-patterns.git"
+  },
+  "keywords": [],
+  "author": "Carlos Henrique Hollerveger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhollerveger/ts-design-patterns/issues"
+  },
+  "homepage": "https://github.com/chhollerveger/ts-design-patterns#readme",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {}
+}
