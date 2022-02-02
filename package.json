@@ -6,7 +6,8 @@
   "scripts": {
     "factory-method": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/factory-method/index.ts",
     "abstract-factory": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/abstract-factory/index.ts",
-    "builder": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/builder/index.ts"
+    "builder": "ts-node-dev --respawn --transpile-only ./src/creational-patterns/builder/index.ts",
+    "adapter": "ts-node-dev --respawn --transpile-only ./src/structural-patterns/adapter/index.ts"
   },
   "repository": {
     "type": "git",
